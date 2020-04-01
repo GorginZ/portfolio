@@ -161,5 +161,12 @@ top:5px;
     background-color:rgba(255, 255, 255, 0.267);
     font-size:30px;
     margin-top: auto;
+    display: flex;
+    justify-content: space-evenly;
 
+}
+
+.logo {
+    display: flex;
+height: 25px;
 }
