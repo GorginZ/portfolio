@@ -1,7 +1,48 @@
 <!DOCTYPE html>
 <html lang="en">
-    <head>
-        <meta charset="utf-8">
-        <link rel="stylesheet" href="style.css">
-        <link href="https://fonts.googleapis.com/css?family=IBM+Plex+Serif&display=swap" rel="stylesheet">
-        <title>Georgia Leng hobbies</title>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Georgia Leng Blog</title>
+    <link rel="stylesheet" href="style.css">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script>
+
+      $(function()  {
+        
+        $(".toggle").on("click", function(){
+
+        if($(".item").hasClass("active")){
+            $(".item").removeClass("active");
+        }
+        else{
+            $(".item").addClass("active");
+        }
+    })
+
+  });
+
+    </script>
+    
+</head>
+<body>
+ <header class="header">
+        <nav>
+            <ul class="menu">
+                <li class="item"><a href="index.html">home</a></li>
+                <li class="item"><a href="projects.html">projects</a></li>
+                <li class="item"><a href="study.html">study</a></li>
+                <li class="item"><a href="contact.html">contact</a></li>
+                <li class="item"><a href="https://github.com/GorginZ">github</a></li>
+                <li class="toggle"><span class="bars"></span></li>
+                <input= type="checkbox" class="toggle"/>
+            </ul>
+           
+        </nav>
+   <h1>Blog
+   </h1>
+   <!-- <h2>Junior Dev</h2> -->
+</header>
+  
+</body>
+</html>
