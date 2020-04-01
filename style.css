@@ -41,7 +41,7 @@ ul{
 }
 a{
     color:rgb(255, 255, 255);
-    text-decoration:rgba(220, 20, 60, 0);
+    text-decoration: none;
     border-style:solid;
     border-spacing: 2em;
     padding: .5em;
