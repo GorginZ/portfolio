@@ -226,6 +226,7 @@ grid-auto-rows: 300px;
 }
 
 .container .text {
+    display:flex;
     line-height: 2;
     color:rgb(255, 255, 255);
 }
