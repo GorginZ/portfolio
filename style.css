@@ -35,7 +35,7 @@ body{
 .wrapper {
     background-image:url(images/stickynotes.jpg);
     background-size:cover;
-    display: grid;
+    display: flexbox;
     margin:auto;
     justify-content:center;
     grid-auto-rows: 200px;
@@ -50,6 +50,7 @@ main, .wrapper, .blogmenu, ul, li, .post {
 }
 
 .wrapper .text {
+    display: flex;
     line-height:2;
     background:rgba(87, 86, 83, 0.555);
     border:solid;
