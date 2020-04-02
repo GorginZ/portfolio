@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Georgia Leng</title>
+    <link rel="stylesheet" href="style.css">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script>
+
+      $(function()  {
+        
+        $(".toggle").on("click", function(){
+
+        if($(".item").hasClass("active")){
+            $(".item").removeClass("active");
+        }
+        else{
+            $(".item").addClass("active");
+        }
+    })
+
+  });
+
+    </script>
+    
+</head>
+<body>
+ <header class="header">
+        <nav>
+            <ul class="menu">
+                <li class="item"><a href="index.html">home</a></li>
+                <li class="item"><a href="blog.html">blog</a></li>
+                <li class="item"><a href="projects.html">projects</a></li>
+                <li class="item"><a href="study.html">study</a></li>
+                <li class="item"><a href="contact.html">contact</a></li>
+                <li class="toggle"><span class="bars"></span></li>
+                <input= type="checkbox" class="toggle"/>
+            </ul>
+           
+        </nav>
+   <h1>Kind Strangers</h1>
+</header>
+<main> 
+<div class="container"> 
+    <div class="image3"> 30/03/20</div>
+    <div class="text">
+    I went for a walk with my housemate Catherine and took her to a particular house to show her a cactus I really admired. We were talking about the cactus out the front of the house when an elderly woman came out. We asked if she knew what kind it was, and she said she didn't but she has a huge one out the back and asked if we'd like to come see it "Come in!". We had to explain we probably shouldn't, because, you know, the virus? We asked if we could come back and take a cutting but she ran inside and came back out with this potted beauty.
+    </div>
+</div>
+</main>
+
+<footer class="footer">
+    <a href="https://twitter.com/explore" target="_blank"> 
+   <img class ="logo" src="images/Twitter_Social_Icon_Circle_White.png" alt="twitter icon and link"></a>
+
+   <a href="https://github.com/GorginZ" target="_blank"> 
+    <img class ="logo" src="images/github.png" alt="github icon and link"></a>
+ 
+    <a href="https://www.linkedin.com/login" target="_blank"> 
+        <img class ="logo" src="images/linkedin.png" alt="linkedin icon and link"></a>
+     
+
+
+
+</footer>
+
+</body>
+</html>
+

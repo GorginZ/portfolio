@@ -50,6 +50,7 @@ main, .wrapper, .blogmenu, ul, li, .post {
 }
 
 .wrapper .text {
+    line-height:2;
     background:rgba(87, 86, 83, 0.555);
     border:solid;
     border-color:rgba(10, 3, 3, 0.151);
@@ -207,18 +208,65 @@ top:5px;
 height: 25px;
 }
 /* formatting for blog posts */
-.container > div {
-    display: grid;
-    grid-template-columns: 50% 50%;
-grid-auto-rows: 200px;
 
-  background:rgb(255, 255, 255);
+
+.container div {
+    display: grid;
+grid-auto-rows: 300px;
+
+  background:rgba(175, 167, 167, 0.377);
+}
+
+.container {
+    font-family:sans-serif;
+    margin:20px;
+    display:grid;    
+    row-gap: 2em;
+    
+}
+
+.container .text {
+    line-height: 2;
+    color:rgb(255, 255, 255);
 }
 
 .container .image{
-    display:grid;
     background-image:url(images/finishedfloor.jpeg);
     background-size:cover;
-    color:rgb(146, 43, 43);
+    color:rgb(255, 255, 255);
+    max-width: 400px;
   
 }
+
+.container .image2{
+    font-family:"lora",serif;
+    background-image:url(images/pianodiy.jpeg);
+    background-size:cover;
+    color:rgb(255, 255, 255);
+    max-width: 400px;
+}
+
+.container .image3{
+    font-family:"lora",serif;
+    background-image:url(images/cactus.jpg);
+    background-size:cover;
+    color:rgb(255, 255, 255);
+max-width: 400px;
+}
+
+.container .image4 {
+    font-family:"lora",serif;
+    background-image:url(images/kale.jpg);
+    background-size:cover;
+    color:rgb(255, 255, 255);
+max-width: 400px;
+}
+
+.container .image5 {
+    font-family:"lora",serif;
+    background-image:url(images/skillet.jpg);
+    background-size:cover;
+    color:rgb(255, 255, 255);
+max-width: 500px;
+}
+

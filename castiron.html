@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Georgia Leng</title>
+    <link rel="stylesheet" href="style.css">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script>
+
+      $(function()  {
+        
+        $(".toggle").on("click", function(){
+
+        if($(".item").hasClass("active")){
+            $(".item").removeClass("active");
+        }
+        else{
+            $(".item").addClass("active");
+        }
+    })
+
+  });
+
+    </script>
+    
+</head>
+<body>
+ <header class="header">
+        <nav>
+            <ul class="menu">
+                <li class="item"><a href="index.html">home</a></li>
+                <li class="item"><a href="blog.html">blog</a></li>
+                <li class="item"><a href="projects.html">projects</a></li>
+                <li class="item"><a href="study.html">study</a></li>
+                <li class="item"><a href="contact.html">contact</a></li>
+                <li class="toggle"><span class="bars"></span></li>
+                <input= type="checkbox" class="toggle"/>
+            </ul>
+           
+        </nav>
+   <h1>Keep Your Cast Iron Happy</h1>
+</header>
+<main> 
+<div class="container"> 
+    <div class="image5"> 3/4/20</div>
+    <div class="text">
+       Cast Iron is superior to cook with, and it lasts forever. Sadly many people abuse their cast iron and can destroy the seasoning that has taken years to build up when they decide to wash-up at their friends dinner party. Using soap and scrubbing your cast iron can cause it to rust and destroys the non-stick seasoning that makes non-stick cooking possible without toxic chemicals like teflon (also people always have to throw those out and replace them - cast iron is FOREVER if you take good care of it so just give it a shot!). Each time you wash your skillet, you need to dry it and rub cooking oil into it before you put it away, it's like moisturising your skin after you swim at the pool.
+    </div>
+</div>
+</main>
+
+<footer class="footer">
+    <a href="https://twitter.com/explore" target="_blank"> 
+   <img class ="logo" src="images/Twitter_Social_Icon_Circle_White.png" alt="twitter icon and link"></a>
+
+   <a href="https://github.com/GorginZ" target="_blank"> 
+    <img class ="logo" src="images/github.png" alt="github icon and link"></a>
+ 
+    <a href="https://www.linkedin.com/login" target="_blank"> 
+        <img class ="logo" src="images/linkedin.png" alt="linkedin icon and link"></a>
+     
+
+
+
+</footer>
+
+</body>
+</html>

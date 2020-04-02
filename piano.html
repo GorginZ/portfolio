@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Georgia Leng</title>
+    <link rel="stylesheet" href="style.css">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script>
+
+      $(function()  {
+        
+        $(".toggle").on("click", function(){
+
+        if($(".item").hasClass("active")){
+            $(".item").removeClass("active");
+        }
+        else{
+            $(".item").addClass("active");
+        }
+    })
+
+  });
+
+    </script>
+    
+</head>
+<body>
+ <header class="header">
+        <nav>
+            <ul class="menu">
+                <li class="item"><a href="index.html">home</a></li>
+                <li class="item"><a href="blog.html">blog</a></li>
+                <li class="item"><a href="projects.html">projects</a></li>
+                <li class="item"><a href="study.html">study</a></li>
+                <li class="item"><a href="contact.html">contact</a></li>
+                <li class="toggle"><span class="bars"></span></li>
+                <input= type="checkbox" class="toggle"/>
+            </ul>
+           
+        </nav>
+   <h1>Digital Piano Circuit Boards</h1>
+</header>
+<main> 
+<div class="container"> 
+    <div class="image2"> 1/4/20</div>
+    <div class="text">
+        Digital pianos are just computers. If you can work your way through the schematic you have a good shot at trouble shooting your 20 year old terrible digital piano you just got given for free. This particular piano had 8 keys fail. Initially we assumed the contacts were dusty, but cleaning them out fixed nothing. We poured hours into understanding the schematic and using a volt-meter to figure out which components were low or abnormal. We identified a resistor capacitor circuit that was to blame, unforunately without a very small tipped soldering iron, it is unlikely we will be able to fix it, and I'd never bother pay for anyone else to fix it.
+    </div>
+</div>
+</main>
+
+<footer class="footer">
+    <a href="https://twitter.com/explore" target="_blank"> 
+   <img class ="logo" src="images/Twitter_Social_Icon_Circle_White.png" alt="twitter icon and link"></a>
+
+   <a href="https://github.com/GorginZ" target="_blank"> 
+    <img class ="logo" src="images/github.png" alt="github icon and link"></a>
+ 
+    <a href="https://www.linkedin.com/login" target="_blank"> 
+        <img class ="logo" src="images/linkedin.png" alt="linkedin icon and link"></a>
+     
+
+
+
+</footer>
+
+</body>
+</html>
+
