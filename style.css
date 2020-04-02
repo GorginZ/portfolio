@@ -4,6 +4,7 @@
     margin:0;
 }
 
+/* to keep footer at bottom */
 html {
     height: 100%;
 }
@@ -31,7 +32,7 @@ body{
     min-height: 100%;
     color:rgb(255, 255, 255);
 }
-
+/* main text spacing */
 main{
     margin-top:auto;
 }
@@ -46,14 +47,14 @@ main{
     grid-auto-rows: 200px;
     color:rgb(255, 255, 255);
 }
-
+/* blog styling */
 main, .wrapper, .blogmenu, ul, li, .post {
     padding:10px;
     font-size:16px;
     justify-content:center;
 
 }
-
+/* blog styling */
 .wrapper .text {
     display: flex;
     line-height:2;
@@ -73,8 +74,8 @@ main, .wrapper, .blogmenu, ul, li, .post {
     grid-auto-rows: 200px;
     color:rgb(255, 255, 255);
 }
-
-main .wrapper2 .blogmenu, ul, {
+/* projects styling */
+main .wrapper2 .projectmenu, ul, {
     padding:10px;
     font-size:16px;
     display:flex;
@@ -82,6 +83,7 @@ main .wrapper2 .blogmenu, ul, {
 
 }
 
+/* projects styling */
 .wrapper2 .text {
     display: flex;
     justify-content:center;
@@ -93,6 +95,7 @@ main .wrapper2 .blogmenu, ul, {
     color:rgb(255, 230, 116);
 }
 
+/* nav bar styling */
 nav{
     background:rgba(0, 0, 0, 0.26);
      padding:5px 20px;
@@ -101,6 +104,7 @@ nav{
 ul{
     list-style-type: none;
 }
+/* a tag styling */
 a{
     color:rgb(255, 255, 255);
     text-decoration: none;
@@ -109,15 +113,14 @@ a{
     padding: .5em;
     border-color:rgba(194, 0, 0, 0);
 
-    
 }
+
+/* menu styling when mouse over */
 a:hover{
-    /* text-decoration:underline; */
-    /* text-decoration-color: rgb(221, 6, 6); */
     text-decoration:none;
     border-color:rgba(194, 0, 0, 0.849);
 }
-
+/* nav menu text styling */
 .menu li {
     font-size:16px;
     padding:15px 5px;
@@ -128,6 +131,7 @@ a:hover{
     display:block;
 }
 
+/* social logos styling */
 .logo a{
     font-size:20px;
 }
@@ -140,17 +144,20 @@ a:hover{
     align-items:center;
 
 }
+
+/* mobile menu on left */
 .toggle {
-    order:1; /* do i need this*/
+    order:1; 
 }
 
+/* formatting of menu items on mobile menu */
 .item{
     width: 100%;
     text-align:center;
     order:2;
     display:none;
 }
-
+/* class active displays block - this is how it popps down on mouse-click with js script */
 .item.active{
     display:block;
 }
@@ -158,7 +165,8 @@ a:hover{
 .toggle{
 cursor:pointer;
 }
-
+ 
+/* the menu icon */
 .bars{
     background: rgb(255, 255, 255);
     display: inline-block;
@@ -166,7 +174,7 @@ cursor:pointer;
     position:relative;
     width:18px;
 }
-
+/* menu bars styling */
 .bars::before,.bars::after{
     background: rgb(255, 255, 255);
     content:"";
@@ -175,15 +183,13 @@ cursor:pointer;
     position:absolute;
     width:18px;
 }
-
+/* positioning bars*/
 .bars::before{
 top:5px;
 }
 .bars::after{
     top:-5px;
 }
-
-
 
 /*tablet*/
 
@@ -241,23 +247,21 @@ top:5px;
 
 .logo {
     display: flex;
-height: 25px;
+    height: 25px;
 }
-/* formatting for blog posts */
 
+/* formatting for blog posts */
 
 .container div {
     display: grid;
-grid-auto-rows: 300px;
-
-  background:rgba(175, 167, 167, 0.377);
+    grid-auto-rows: 300px;
+    background:rgba(175, 167, 167, 0.377);
 }
 
 .container {
     font-family:sans-serif;
     margin:20px;
-    display:grid;
-    grid-    
+    display:grid;  
     row-gap: 2em;
     
 }
@@ -289,7 +293,7 @@ grid-auto-rows: 300px;
     background-image:url(images/cactus.jpg);
     background-size:cover;
     color:rgb(255, 255, 255);
-max-width: 400px;
+    max-width: 400px;
 }
 
 .container .image4 {
@@ -322,5 +326,4 @@ max-width: 300px;
     background-size:cover;
     color:rgb(255, 255, 255);
 max-width: 300px;
-}
 }
