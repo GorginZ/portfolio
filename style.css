@@ -46,6 +46,7 @@ main, .wrapper, .blogmenu, ul, li, .post {
     padding:10px;
     font-size:16px;
     justify-content:center;
+
 }
 
 .wrapper .text {
@@ -204,4 +205,20 @@ top:5px;
 .logo {
     display: flex;
 height: 25px;
+}
+/* formatting for blog posts */
+.container > div {
+    display: grid;
+    grid-template-columns: 50% 50%;
+grid-auto-rows: 200px;
+
+  background:rgb(255, 255, 255);
+}
+
+.container .image{
+    display:grid;
+    background-image:url(images/finishedfloor.jpeg);
+    background-size:cover;
+    color:rgb(146, 43, 43);
+  
 }
