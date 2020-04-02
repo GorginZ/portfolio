@@ -31,6 +31,30 @@ body{
     font-family:"lora",serif;
     min-height: 100%;
 }
+
+.wrapper {
+    background-image:url(images/stickynotes.jpg);
+    background-size:cover;
+    display: grid;
+    margin:auto;
+    justify-content:center;
+    grid-auto-rows: 200px;
+    color:rgb(255, 255, 255);
+}
+
+main, .wrapper, .blogmenu, ul, li, .post {
+    padding:10px;
+    font-size:16px;
+    justify-content:center;
+}
+
+.wrapper .text {
+    background:rgba(87, 86, 83, 0.555);
+    border:solid;
+    border-color:rgba(10, 3, 3, 0.151);
+    color:rgb(255, 255, 255);
+}
+
 nav{
     background:rgba(0, 0, 0, 0.26);
      padding:5px 20px;
