@@ -21,7 +21,6 @@ h1 {
 
 }
 
-
 body{
     display:flex;
     flex-direction:column; 
@@ -30,10 +29,16 @@ body{
     background-attachment: fixed;
     font-family:"lora",serif;
     min-height: 100%;
+    color:rgb(255, 255, 255);
 }
 
+main{
+    margin-top:auto;
+}
+
+/* blog page styling */
 .wrapper {
-    background-image:url(images/stickynotes.jpg);
+    background-image:url(images/leaves.jpg);
     background-size:cover;
     display: flexbox;
     margin:auto;
@@ -56,6 +61,36 @@ main, .wrapper, .blogmenu, ul, li, .post {
     border:solid;
     border-color:rgba(10, 3, 3, 0.151);
     color:rgb(255, 255, 255);
+}
+
+/* Projects styling */
+.wrapper2 {
+    background-image:url(images/stickynotes.jpg);
+    background-size:cover;
+    display: flexbox;
+    margin:auto;
+    justify-content:center;
+    grid-auto-rows: 200px;
+    color:rgb(255, 255, 255);
+}
+
+main .wrapper2 .blogmenu, ul, {
+    padding:10px;
+    font-size:16px;
+    display:flex;
+    justify-content: center;
+
+}
+
+.wrapper2 .text {
+    display: flex;
+    justify-content:center;
+    line-height:2;
+    font-size:30px;
+    background:rgba(87, 86, 83, 0.555);
+    border:solid;
+    border-color:rgba(10, 3, 3, 0.151);
+    color:rgb(255, 230, 116);
 }
 
 nav{
@@ -221,7 +256,8 @@ grid-auto-rows: 300px;
 .container {
     font-family:sans-serif;
     margin:20px;
-    display:grid;    
+    display:grid;
+    grid-    
     row-gap: 2em;
     
 }
@@ -272,3 +308,19 @@ max-width: 400px;
 max-width: 500px;
 }
 
+.container .image6 {
+    font-family:"lora",serif;
+    background-image:url(images/bookappointment1.png);
+    background-size:cover;
+    color:rgb(255, 255, 255);
+max-width: 300px;
+}
+
+.container .image7 {
+    font-family:"lora",serif;
+    background-image:url(images/upcoming.png);
+    background-size:cover;
+    color:rgb(255, 255, 255);
+max-width: 300px;
+}
+}
