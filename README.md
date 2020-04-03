@@ -38,6 +38,9 @@ I used Trello to help me break up components into smaller tasks. This helped me 
 
 responsive nav bar (flexbox)
 
+## page map
+<img src="readmeimg/sitemap.png" width="800">
+
 ## responsiveness
 I priroitised mobile first design
 Here is my blog page viewed on mobile
