@@ -8,7 +8,9 @@ check out my other branches - they're just for fun!
 https://github.com/GorginZ/portfolio/tree/pinkndumb
 <br>
 https://github.com/GorginZ/portfolio/tree/oldnet
+
 <br>
+
 ## Statement of purpose    
 My portfolio is my first proper website. It aims to introduce me and showcase some of my past skills and my current learning, but primarily it's an educational challenge. One of my main goals is utilising css rules to make responsive websites that work across different device sizes.
 
