@@ -44,11 +44,11 @@ html {
 h1 {
     display: flex;
     justify-content: center;
-    color:rgb(255, 230, 116);
+    color:rgb(116, 88, 141);
 }
 
 .header{
-    background-color:rgba(255, 255, 255, 0.267);
+    background-color:rgba(211, 20, 211, 0.116);
     font-size:20px;
     height:auto;
 
@@ -57,7 +57,7 @@ h1 {
 body{
     display:flex;
     flex-direction:column; 
-    background-image:url(images/stone.jpg);
+    background-image:url(images/pink.jpg);
     background-size:cover;
     background-attachment: fixed;
     font-family:"lora",serif;
@@ -71,13 +71,13 @@ main{
 
 /* blog page styling */
 .wrapper {
-    background-image:url(images/leaves.jpg);
+    background-image:url(images/pink.jpg);
     background-size:cover;
     display: flexbox;
     margin:auto;
     justify-content:center;
     grid-auto-rows: 200px;
-    color:rgb(255, 255, 255);
+    color:rgb(196, 116, 116);
 }
 /* blog styling */
 main, .wrapper, .blogmenu, ul, li, .post {
@@ -98,7 +98,7 @@ main, .wrapper, .blogmenu, ul, li, .post {
 
 /* Projects styling */
 .wrapper2 {
-    background-image:url(images/stickynotes.jpg);
+    background-image:url(images/pink.jpg);
     background-size:cover;
     display: flexbox;
     margin:auto;
@@ -129,7 +129,7 @@ main .wrapper2 .projectmenu, ul, {
 
 /* nav bar styling */
 nav{
-    background:rgba(0, 0, 0, 0.26);
+    background-color:rgba(202, 103, 103, 0.267);
      padding:5px 20px;
 }
 
@@ -143,14 +143,14 @@ a{
     border-style:solid;
     border-spacing: 2em;
     padding: .5em;
-    border-color:rgba(194, 0, 0, 0);
+    border-color:rgba(255, 240, 110, 0);
 
 }
 
 /* menu styling when mouse over */
 a:hover{
     text-decoration:none;
-    border-color:rgba(194, 0, 0, 0.849);
+    border-color:rgba(255, 251, 22, 0.849);
 }
 /* nav menu text styling */
 .menu li {
@@ -269,7 +269,7 @@ top:5px;
 }
 
 .footer {
-    background-color:rgba(255, 255, 255, 0.267);
+    background-color:rgba(202, 103, 103, 0.267);
     font-size:30px;
     margin-top: auto;
     display: flex;
@@ -301,7 +301,7 @@ top:5px;
 .container .text {
     display:flex;
     line-height: 2;
-    color:rgb(255, 255, 255);
+    color:rgb(163, 70, 70);
 }
 
 .container .image{
