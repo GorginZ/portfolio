@@ -44,7 +44,7 @@ html {
 h1 {
     display: flex;
     justify-content: center;
-    color:rgb(255, 230, 116);
+    color:rgb(243, 0, 0);
 }
 
 .header{
@@ -57,12 +57,12 @@ h1 {
 body{
     display:flex;
     flex-direction:column; 
-    background-image:url(images/stone.jpg);
+    /* background-image:url(images/stone.jpg); */
     background-size:cover;
     background-attachment: fixed;
     font-family:"lora",serif;
     min-height: 100%;
-    color:rgb(255, 255, 255);
+    color:rgb(45, 17, 148)
 }
 /* main text spacing */
 main{
@@ -71,7 +71,7 @@ main{
 
 /* blog page styling */
 .wrapper {
-    background-image:url(images/leaves.jpg);
+    /* background-image:url(images/leaves.jpg); */
     background-size:cover;
     display: flexbox;
     margin:auto;
@@ -93,12 +93,12 @@ main, .wrapper, .blogmenu, ul, li, .post {
     background:rgba(87, 86, 83, 0.555);
     border:solid;
     border-color:rgba(10, 3, 3, 0.151);
-    color:rgb(255, 255, 255);
+    color:rgb(177, 0, 0);
 }
 
 /* Projects styling */
 .wrapper2 {
-    background-image:url(images/stickynotes.jpg);
+    /* background-image:url(images/stickynotes.jpg); */
     background-size:cover;
     display: flexbox;
     margin:auto;
@@ -138,7 +138,7 @@ ul{
 }
 /* a tag styling */
 a{
-    color:rgb(255, 255, 255);
+    color:rgb(87, 0, 0);
     text-decoration: none;
     border-style:solid;
     border-spacing: 2em;
@@ -208,7 +208,7 @@ cursor:pointer;
 }
 /* menu bars styling */
 .bars::before,.bars::after{
-    background: rgb(255, 255, 255);
+    background: rgb(255, 164, 164);
     content:"";
     display: inline-block;
     height:2px;
@@ -287,7 +287,7 @@ top:5px;
 .container div {
     display: grid;
     grid-auto-rows: 300px;
-    background:rgba(175, 167, 167, 0.377);
+    background:rgba(185, 0, 0, 0.377);
 }
 
 .container {
@@ -301,7 +301,7 @@ top:5px;
 .container .text {
     display:flex;
     line-height: 2;
-    color:rgb(255, 255, 255);
+    color:rgb(0, 141, 24);
 }
 
 .container .image{
