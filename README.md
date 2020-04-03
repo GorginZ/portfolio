@@ -34,9 +34,17 @@ I used Trello to help me break up components into smaller tasks. This helped me 
 
 <img src="readmeimg/trello.png" width="600" >
 
-## componnents
-
+## componnents/features
+text-componants
+nav bar
+drop-down mobile nav menu
 responsive nav bar (flexbox)
+semantic HTML
+media queries for responsivness 
+
+graphical componants
+Footer with social icons.
+
 
 ## page map
 <img src="readmeimg/sitemap.png" width="800">
