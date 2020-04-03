@@ -4,6 +4,11 @@
     margin:0;
 }
 
+.icons{
+display:flex;
+justify-content:space-between;
+
+}
 /* to keep footer at bottom */
 html {
     height: 100%;
