@@ -1,6 +1,10 @@
 # portfolio
 
 https://georgialeng.netlify.com
+<br>
+
+https://github.com/GorginZ/portfolio
+
 
 <br>
 check out my other branches - they're just for fun!
